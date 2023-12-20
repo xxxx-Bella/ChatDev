@@ -72,7 +72,7 @@ parser.add_argument('--path', type=str, default="",
                     help="Your file directory, ChatDev will build upon your software in the Incremental mode")
 args = parser.parse_args()
 
-# Start ChatDev
+# Start ChatDev !! here !!
 
 # ----------------------------------------
 #          Init ChatChain
@@ -118,3 +118,4 @@ chat_chain.execute_chain()
 # ----------------------------------------
 
 chat_chain.post_processing()
+# End
